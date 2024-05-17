@@ -74,7 +74,7 @@ System.out.println("Não foi possível realizar o saque");
 public void transferencia(Conta contaParaDeposito, Double valor) {
 if(valor > 0 && this.getSaldo() >= valor) {
 setSaldo(getSaldo() - valor);
-System.out.println("Transferência realizada para o corno!");
+System.out.println("Transferência realizada!");
 }
 else {
 System.out.println("A fiel não deixou depositar");
